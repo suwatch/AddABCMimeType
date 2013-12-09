@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<configuration xmlns:xdt="http://schemas.microsoft.com/XML-Document-Transform">
+  <system.webServer>
+    <staticContent lockAttributes="isDocFooterFileName" xdt:Locator="Match(lockAttributes)">
+      <mimeMap fileExtension=".abc" mimeType="text/plain"  xdt:Transform="Insert" />
+    </staticContent>
+  </system.webServer>
+</configuration>
